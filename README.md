@@ -9,9 +9,9 @@ If no errors:
 - run `Reload All Gradle Projects` command 
 - put cursor into `build.gradle.kts` file edit window (change focus)
 
-Errors are gone if:
+Error will go if:
 
 - remove `gradle/verification-metadata.xml`
-- OR remove android KMP-target in `build.gradle.kts`
+- OR remove android KMP-target in `build.gradle.kts` (I might be wrong with this one. Can't reproduce anymore. But it worked a couple of times during investigations)
 
 and run `Reload All Gradle Projects` command 
